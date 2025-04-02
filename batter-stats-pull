@@ -1,0 +1,18 @@
+>>> from baseball_scraper import batting_stats_range
+>>> data = batting_stats_range('2017-05-01', '2017-05-08')
+>>> data.head()
+          Name  Age  #days     Lev          Tm  G  PA  AB  R  H  ...    HBP
+1   Jose Abreu   30     69  MLB-AL     Chicago  7  31  30  5  9  ...      0
+2   Lane Adams   27     69  MLB-NL     Atlanta  6   6   6  0  2  ...      0
+3   Matt Adams   28     68  MLB-NL   St. Louis  6   9   9  2  4  ...      0
+4   Jim Adduci   32     69  MLB-AL     Detroit  6  24  21  3  5  ...      0
+5  Tim Adleman   29     72  MLB-NL  Cincinnati  1   2   2  0  0  ...      0
+
+   SH  SF  GDP  SB  CS     BA    OBP    SLG    OPS  mlb_ID
+1   0   0    1   0   0  0.300  0.323  0.667  0.989  547989
+2   0   0    1   1   0  0.333  0.333  0.333  0.667  572669
+3   0   0    0   0   0  0.444  0.444  0.778  1.222  571431
+4   0   0    0   0   0  0.238  0.333  0.381  0.714  451192
+5   0   0    0   0   0  0.000  0.000  0.000  0.000  534947
+
+[5 rows x 28 columns]
